@@ -19,7 +19,7 @@ void swap_ints(int *x, int *y)
 	*y = tmp;
 }
 
-/**                                                                                                                                                              
+/**
  * lomuto_partition - the lomuto partition scheme (last element as pivot).
  * @array: The array
  * @size: The size
