@@ -7,8 +7,8 @@ void quick_sort_hoare(int *array, size_t size);
 
 /**
  * swap_ints - Swap two integers
- * @a: The first integer
- * @b: The second integer
+ * @x: The first integer
+ * @y: The second integer
  */
 void swap_ints(int *x, int *y)
 {
@@ -25,7 +25,7 @@ void swap_ints(int *x, int *y)
  * @array: The array
  * @left: The starting index
  * @right: The ending index
- *
+ * @size: The size
  * Return: The final partition index.
  */
 int hoare_partition(int *array, size_t size, int left, int right)
